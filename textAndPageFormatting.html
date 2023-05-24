@@ -6,6 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page Formatting | Text Formatting</title>
 
+    <style>
+        header,nav,footer,article,section,aside{
+            border: 1px solid black;
+        }
+        header,nav,footer{
+            height: 50px;
+        }
+        article,section{
+            height: 200px;
+            width: 50%;
+        }
+        aside{
+            height: 200px;
+            width: 20%;
+            float: left;
+        }
+        main{
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
 </head>
 <body>
 
@@ -14,11 +35,12 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita adipisci dolorem repellendus, magni aperiam nesciunt natus culpa quas fuga perspiciatis dolore dolorum, sit atque vero facere. Mollitia, omnis asperiores!</p>
         <header>Defines a header for a document or a section</header>
         <nav>Defines a set of navigation links</nav>
+        <aside>Defines content aside from the content (like a slidebar)</aside>
         <main>
             <section>Defines a section in a document</section>
             <article>Defines an independent, self-contained content</article>
         </main>
-        <aside>Defines content aside from the content (like a slidebar)</aside>
+        
         <footer>Defines a footer for a document or a section</footer>
     </div>
 
