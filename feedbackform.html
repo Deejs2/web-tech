@@ -5,27 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feedback Form</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        p{
+            margin-bottom: 2px;
+        }
+        textarea:focus, input:focus{
+            outline: none;
+        }
+        button,input[type='button']{
+            border-radius: 8px;
+            border-style: groove;
+            padding: 3px 10px;
+        }
+    </style>
 </head>
 <body>
 
     <form action="" method="post">
-        <h2>My Feedback Form</h2>
+        <h1>My Feedback Form</h1>
         <ul>
             <li>
-                <label for="name">Name</label>
-                <input type="text" name="name" id="">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="" autofocus>
             </li>
             <li>
-                <label for="email">Email</label>
+                <label for="email">Email:</label>
                 <input type="email" name="email" id="">
             </li>
             <li>
-                <label for="password">Password</label>
+                <label for="password">Password:</label>
                 <input type="password" name="" id="">
             </li>
             <li>
                 <p>Please check all the emotions that apply to you:</p>
-                <ul>   
+                <ul style="list-style-type: disc;">   
                     <li>Angry <input type="checkbox" name="" id=""></li>
                     <li>Sad <input type="checkbox" name="" id=""></li>
                     <li>Happy <input type="checkbox" name="" id=""></li>
@@ -34,7 +48,7 @@
             </li>
             <li>
                 <p>How satisfied were you with our service?</p>
-                <ul>
+                <ul style="list-style-type: disc;">
                     <li>Very satisfied <input type="radio" name="feedback" id=""></li>
                     <li>satisfied <input type="radio" name="feedback" id=""></li>
                     <li>Didn't care <input type="radio" name="feedback" id=""></li>
@@ -49,13 +63,15 @@
             <li>
                 <label for="">Bio photo:</label>
                 <input type="file" name="" id="">
+                <!-- <input type="text" name="" id=""><input type="button" value="Choose..."> This should include for looks only-->
             </li>
             <li>
                 <label for="">Location visited:</label>
-                <select name="" id="">
-                    <option value="">Select location</option>
+                <!-- <input type="number" name="" id="" placeholder="Select location"> -->
+                <select name="" id="" multiple size="1">
                     <option value="">Nepal</option>
                     <option value="">India</option>
+                    <option value="none" selected>Select location</option>
                     <option value="">China</option>
                     <option value="">Bhutan</option>
                 </select>
@@ -63,7 +79,7 @@
 
         </ul>
 
-        <ul>
+        <ul style="padding-left: 10px;">
             <li>
                 <button type="submit">Submit</button>
             </li>
