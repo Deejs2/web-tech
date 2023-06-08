@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="xsl/bca.xsl" ?>
+
+<bca>
+    <batch>BCA Batch 2078</batch>
+    <result>Mid-term exam result</result>
+    <full-marks>Full marks : 60</full-marks>
+    <Pass-marks>Pass marks : 30</Pass-marks>
+
+    <student>
+        <thead>
+            <name>Pasang Sherpa</name>
+        </thead>
+
+        <caption>
+            <subject>subjects</subject>
+            <obj-marks>Objective marks</obj-marks>
+            <sub-marks>Subjective marks</sub-marks>
+            <total>Total</total>
+            <remark>Result</remark>
+        </caption>
+
+        <tbody>
+        
+        <row>
+            <subject>Data Structure And Algorithm</subject>
+            <obj-marks>8</obj-marks>
+            <sub-marks>40</sub-marks>
+            <total>48</total>
+            <remark>Pass</remark>
+        </row>
+        <row>
+            <subject>Web Technology</subject>
+            <obj-marks>7</obj-marks>
+            <sub-marks>43</sub-marks>
+            <total>50</total>
+            <remark>Pass</remark>
+        </row>
+        <row>
+            <subject>OOP in Java</subject>
+            <obj-marks>6</obj-marks>
+            <sub-marks>38</sub-marks>
+            <total>44</total>
+            <remark>Pass</remark>
+        </row>
+        <row>
+            <subject>System Analysis And Design</subject>
+            <obj-marks>5</obj-marks>
+            <sub-marks>28</sub-marks>
+            <total>33</total>
+            <remark>Pass</remark>
+        </row>
+        <row>
+            <subject>Statistic And Probability</subject>
+            <obj-marks>8</obj-marks>
+            <sub-marks>45</sub-marks>
+            <total>53</total>
+            <remark>Pass</remark>
+        </row>
+        </tbody>
+        
+        <tfoot>
+            <foot>Overal Result : Pass</foot>
+        </tfoot>   
+    </student>
+
+    <student>
+        <thead>
+            <name>Utsab Dahal</name>
+        </thead>
+
+        <caption>
+            <subject>subjects</subject>
+            <obj-marks>Objective marks</obj-marks>
+            <sub-marks>Subjective marks</sub-marks>
+            <total>Total</total>
+            <remark>Result</remark>
+        </caption>
+
+        <tbody>
+        
+        <row>
+            <subject>Data Structure And Algorithm</subject>
+            <obj-marks>10</obj-marks>
+            <sub-marks>40</sub-marks>
+            <total>50</total>
+            <remark>Pass</remark>
+        </row>
+        <row>
+            <subject>Web Technology</subject>
+            <obj-marks>5</obj-marks>
+            <sub-marks>43</sub-marks>
+            <total>48</total>
+            <remark>Pass</remark>
+        </row>
+        <row>
+            <subject>OOP in Java</subject>
+            <obj-marks>7</obj-marks>
+            <sub-marks>35</sub-marks>
+            <total>42</total>
+            <remark>Pass</remark>
+        </row>
+        <row>
+            <subject>System Analysis And Design</subject>
+            <obj-marks>5</obj-marks>
+            <sub-marks>30</sub-marks>
+            <total>35</total>
+            <remark>Pass</remark>
+        </row>
+        <row>
+            <subject>Statistic And Probability</subject>
+            <obj-marks>8</obj-marks>
+            <sub-marks>50</sub-marks>
+            <total>58</total>
+            <remark>Pass</remark>
+        </row>
+        </tbody>
+        
+        <tfoot>
+            <foot>Overal Result : Pass</foot>
+        </tfoot>   
+    </student>
+
+    <student>
+        <thead>
+            <name>Dhiraj Jirel</name>
+        </thead>
+
+        <caption>
+            <subject>subjects</subject>
+            <obj-marks>Objective marks</obj-marks>
+            <sub-marks>Subjective marks</sub-marks>
+            <total>Total</total>
+            <remark>Result</remark>
+        </caption>
+
+        <tbody>
+        
+        <row>
+            <subject>Data Structure And Algorithm</subject>
+            <obj-marks>8</obj-marks>
+            <sub-marks>40</sub-marks>
+            <total>48</total>
+            <remark>Pass</remark>
+        </row>
+        <row>
+            <subject>Web Technology</subject>
+            <obj-marks>7</obj-marks>
+            <sub-marks>45</sub-marks>
+            <total>52</total>
+            <remark>Pass</remark>
+        </row>
+        <row>
+            <subject>OOP in Java</subject>
+            <obj-marks>8</obj-marks>
+            <sub-marks>38</sub-marks>
+            <total>46</total>
+            <remark>Pass</remark>
+        </row>
+        <row>
+            <subject>System Analysis And Design</subject>
+            <obj-marks>5</obj-marks>
+            <sub-marks>15</sub-marks>
+            <total>20</total>
+            <remark>Fail</remark>
+        </row>
+        <row>
+            <subject>Statistic And Probability</subject>
+            <obj-marks>5</obj-marks>
+            <sub-marks>24</sub-marks>
+            <total>29</total>
+            <remark>Fail</remark>
+        </row>
+        </tbody>
+        
+        <tfoot>
+            <foot>Overal Result : Fail</foot>
+        </tfoot>   
+    </student>
+
+    
+    
+</bca>
