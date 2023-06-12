@@ -19,36 +19,36 @@ $account = $_POST['account'];
 // }
 
 //checking correct password and id
-if (($id>=1 || $id <=15)&&($password=="admin"||$password=="student"||$password=="teacher")) {
+if (($id>=1 && $id <=15)&&($password=="admin"||$password=="student"||$password=="teacher")) {
     //only switching other pages in a same page
 switch ($account) {
     case 'admin':
-        if (($password=="admin")&&($id>=1 || $id <=5)) {
+        if (($password=="admin")&&($id>=1 && $id <=5)) {
             include("admin/dashboard.php");
         }else{
-            echo "Invalid Id or Password!";
+            echo "Invalid Id or Password!<a href='login.php'>Go Back</a>";
         }
         break;
     case 'student':
-        if (($password=="student")&&($id>5 || $id <=10)) {
+        if (($password=="student")&&($id>5 && $id <=10)) {
             include("student/dashboard.php");
         }else{
-            echo "Invalid Id or Password!";
+            echo "Invalid Id or Password!<a href='login.php'>Go Back</a>";
         }
         break;
     case 'teacher':
-        if (($password=="teacher")&&($id>10 || $id <=15)) {
+        if (($password=="teacher")&&($id>10 && $id <=15)) {
             include("teacher/dashboard.php");
         }else{
-            echo "Invalid Id or Password!";
+            echo "Invalid Id or Password!<a href='login.php'>Go Back</a>";
         }  
         break;
     default:
-        echo "Please Select an Account!";
+        echo "Please Select an Account!<a href='login.php'>Go Back</a>";
         break;
 }
 } else {
-    echo "<h3>Password Incorrect!</h3>";
+    echo "<h3>Id or Password Incorrect!</h3>";
     echo "<a href='login.php'>Go Back</a>";
 }
 
